@@ -1,0 +1,14 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use QQ;
+use Robit;
+use POE;
+
+my $spec = QQ->spec();
+$spec->{channels} = [''];
+$spec->{nick} = 'rr';
+
+my $qq = Robit->new(%$spec);
+$qq->spawn();
+$poe_kernel->run();
