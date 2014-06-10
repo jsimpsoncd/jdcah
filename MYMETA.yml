@@ -1,21 +1,20 @@
 ---
-abstract: ~
-author: []
+abstract: unknown
+author:
+  - unknown
 build_requires:
   ExtUtils::MakeMaker: 6.36
 configure_requires:
-  ExtUtils::MakeMaker: 0
-distribution_type: module
+  ExtUtils::MakeMaker: 6.36
 dynamic_config: 0
-generated_by: 'ExtUtils::MakeMaker version 6.57_05'
+generated_by: 'Module::Install version 1.06, CPAN::Meta::Converter version 2.132830'
 license: unknown
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-name: QQ
+name: CAH
 no_index:
   directory:
-    - t
     - inc
 requires:
   Robit: 0.00
